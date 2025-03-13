@@ -4,9 +4,11 @@
 [data-theme='dark'],
 .dark {
   /* For default neutral backgrounds */
-  --color-background-default: var(--brand-colors-grey-grey800);
+  --color-background-default: #ebf4f5;
+  /* --color-background-default: var(--brand-colors-grey-grey800); */
   /* For secondary neutral backgrounds. */
-  --color-background-alternative: var(--brand-colors-grey-grey900);
+  --color-background-alternative:#b5c6e0;
+  /* --color-background-alternative: var(--brand-colors-grey-grey900); */
   /* For "hover" states that use background-default. */
   --color-background-default-hover: #313235;
   /* For "pressed" states that use background-alternative. */
