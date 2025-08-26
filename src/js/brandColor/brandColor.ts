@@ -4,7 +4,7 @@ export const brandColor: BrandColor = {
   // Grey
   grey100: '#d6d9dc',
   // Grey
-  grey200: '#bbc0c5',
+  grey200: '#CBD5E1',
   // Grey
   grey300: '#9fa6ae',
   // Grey
@@ -18,13 +18,13 @@ export const brandColor: BrandColor = {
   // Grey
   grey800: '#24272a',
   // Grey
-  grey900: '#141618',
+  grey900: '#0F172A',
   // Grey
   grey1000: '#000000',
   // Grey
   grey050: '#f2f4f6',
   // Grey
-  grey000: '#ffffff',
+  grey000: '#F1F5F9',
   // Grey
   grey025: '#fafbfc',
   // Blue
@@ -32,11 +32,11 @@ export const brandColor: BrandColor = {
   // Blue
   blue200: '#75c4fd',
   // Blue
-  blue300: '#43aefc',
+  blue300: '#9333EA',
   // Blue
   blue400: '#1098fc',
   // Blue
-  blue500: '#0376c9',
+  blue500: '#9333EA',
   // Blue
   blue600: '#0260a4',
   // Blue

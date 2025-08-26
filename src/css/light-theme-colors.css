@@ -35,11 +35,12 @@
   /* For soft contrast neutral border */
   --color-border-default: var(--brand-colors-grey-grey200);
   /* For the weakest  contrast neutral border */
-  --color-border-muted: #bbc0c566;
+  --color-border-muted: #E2E8F0;
   /* For the default shade of screen */
   --color-overlay-default: #00000099;
   /* For a stronger shade of screen */
-  --color-overlay-alternative: #000000cc;
+  --color-overlay-alternative: #E5E7EB;
+  /* --color-overlay-alternative: #000000cc; */
   /* For elements used on top of overlay/alternative. Used for text, icon or border */
   --color-overlay-inverse: var(--brand-colors-grey-grey000);
   /* For interactive, active, and selected semantics. Used for text, background, icon or border */

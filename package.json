@@ -1,6 +1,6 @@
 {
   "name": "ryt-design-tokens",
-  "version": "4.3.1",
+  "version": "4.3.10",
   "description": "Your package description",
   "keywords": [
     "MetaMask",
@@ -14,9 +14,7 @@
     "type": "git",
     "url": "https://github.com/abdulmalik255-tekhqs/design-token.git"
   },
-  "main": "./dist/index.js",
-  "module": "./dist/index.mjs",
-  "types": "./dist/index.d.ts",
+  "license": "MIT",
   "exports": {
     ".": {
       "import": "./dist/index.mjs",
@@ -25,18 +23,20 @@
     "./package.json": "./package.json",
     "./styles.css": "./dist/styles.css"
   },
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
   "files": [
     "dist/**/*"
   ],
+  "workspaces": [
+    "packages/*"
+  ],
   "scripts": {
     "build": "tsc --project tsconfig.build.json && cleancss -o dist/styles.css src/css/index.css",
-    "test": "jest && jest-it-up",
-    "prepublishOnly": "npm test && npm run build"
+    "prepublishOnly": "npm test && npm run build",
+    "test": "jest && jest-it-up"
   },
-  "publishConfig": {
-    "access": "public"
-  },
-  "license": "MIT",
   "dependencies": {
     "@babel/core": "^7.15.0",
     "@babel/preset-env": "^7.14.0",
@@ -44,5 +44,9 @@
     "@vitejs/plugin-react": "^4.2.1",
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
+  },
+  "packageManager": "yarn@1.22.22",
+  "publishConfig": {
+    "access": "public"
   }
 }
