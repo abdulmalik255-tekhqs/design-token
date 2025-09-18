@@ -1,6 +1,6 @@
 {
   "name": "ryt-design-tokens",
-  "version": "4.3.13",
+  "version": "4.3.14",
   "description": "Your package description",
   "keywords": [
     "MetaMask",
@@ -29,11 +29,11 @@
   "files": [
     "dist/**/*"
   ],
-"scripts": {
-  "release": "npm version patch && yarn build && npm publish --access public",
-  "build": "tsc --project tsconfig.build.json && cleancss -o dist/styles.css src/css/index.css",
-  "test": "jest && jest-it-up"
-},
+  "scripts": {
+    "release": "npm version patch && yarn build && npm publish --access public",
+    "build": "tsc --project tsconfig.build.json && cleancss -o dist/styles.css src/css/index.css",
+    "test": "jest && jest-it-up"
+  },
   "dependencies": {
     "@babel/core": "^7.15.0",
     "@babel/preset-env": "^7.14.0",
