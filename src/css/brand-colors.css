@@ -8,26 +8,29 @@
 :root {
   /* Grey */
   --brand-colors-grey-grey100: #d6d9dc;
-  --brand-colors-grey-grey200: #bbc0c5;
-  --brand-colors-grey-grey300: #9fa6ae;
-  --brand-colors-grey-grey400: #848c96;
-  --brand-colors-grey-grey500: #6a737d;
+  /* --brand-colors-grey-grey200: #bbc0c5; */
+  --brand-colors-grey-grey200: #e5e7eb;
+  /* --brand-colors-grey-grey300: #9fa6ae; */
+  --brand-colors-grey-grey300: #94a3b8;
+  /* --brand-colors-grey-grey400: #848c96; */
+  --brand-colors-grey-grey400: #9ca3af;
+  /* --brand-colors-grey-grey500: #6a737d; */
+  --brand-colors-grey-grey500: #64748b;
   --brand-colors-grey-grey600: #535a61;
   --brand-colors-grey-grey700: #3b4046;
   --brand-colors-grey-grey800: #24272a;
   --brand-colors-grey-grey900: #141618;
   --brand-colors-grey-grey1000: #000000;
   --brand-colors-grey-grey050: #f2f4f6;
-  --brand-colors-grey-grey000: #4E130D;
-  --brand-colors-grey-grey000: #E3EAED;
-  /* --brand-colors-grey-grey025: #fafbfc; */
+  --brand-colors-grey-grey000: #ffffff;
+  --brand-colors-grey-grey025: #fafbfc;
   /* Blue */
   --brand-colors-blue-blue100: #a7d9fe;
   --brand-colors-blue-blue200: #75c4fd;
   --brand-colors-blue-blue300: #43aefc;
   --brand-colors-blue-blue400: #1098fc;
-  --brand-colors-blue-blue500: #9333EA;
-  --brand-colors-blue-blue600: #9333EA;
+  --brand-colors-blue-blue500: #0376c9;
+  --brand-colors-blue-blue600: #0260a4;
   --brand-colors-blue-blue700: #024272;
   --brand-colors-blue-blue800: #01253f;
   --brand-colors-blue-blue900: #00080d;
@@ -35,10 +38,12 @@
   --brand-colors-blue-blue025: #eaf6ff;
   /* Green */
   --brand-colors-green-green100: #afecbd;
-  --brand-colors-green-green200: #5dd879;
+  /* --brand-colors-green-green200: #5dd879; */
+  --brand-colors-green-green200: #bbf7d0;
   --brand-colors-green-green300: #28a745;
   --brand-colors-green-green400: #28a745;
-  --brand-colors-green-green500: #1c8234;
+  /* --brand-colors-green-green500: #1c8234; */
+  --brand-colors-green-green500: #22c55e;
   --brand-colors-green-green600: #145523;
   --brand-colors-green-green700: #145523;
   --brand-colors-green-green800: #0a2c12;
@@ -70,23 +75,31 @@
   --brand-colors-yellow-yellow050: #fff2c5;
   --brand-colors-yellow-yellow025: #fefcde;
   /* Orange */
-  --brand-colors-orange-orange100: #fbc49d;
+  /* --brand-colors-orange-orange100: #fbc49d; */
+  --brand-colors-orange-orange100: #ffedd5;
   --brand-colors-orange-orange200: #faa66c;
   --brand-colors-orange-orange300: #f8883b;
   --brand-colors-orange-orange400: #f66a0a;
-  --brand-colors-orange-orange500: #bf5208;
+  /* --brand-colors-orange-orange500: #bf5208; */
+  --brand-colors-orange-orange500: #f97316;
   --brand-colors-orange-orange600: #954005;
   --brand-colors-orange-orange700: #632b04;
   --brand-colors-orange-orange800: #321602;
   --brand-colors-orange-orange900: #321602;
-  --brand-colors-orange-orange050: #fde2cf;
+  /* --brand-colors-orange-orange050: #fde2cf; */
+  --brand-colors-orange-orange050: #fff7ed;
   --brand-colors-orange-orange025: #fef5ef;
   /* Purple */
-  --brand-colors-purple-purple100: #efd2ff;
-  --brand-colors-purple-purple200: #cfb5f0;
-  --brand-colors-purple-purple300: #d27dff;
-  --brand-colors-purple-purple400: #b864f5;
-  --brand-colors-purple-purple500: #8b45b6;
+  /* --brand-colors-purple-purple100: #efd2ff; */
+  --brand-colors-purple-purple100: #f3e8ff;
+  /* --brand-colors-purple-purple200: #cfb5f0; */
+  --brand-colors-purple-purple200: #e9d5ff;
+  /* --brand-colors-purple-purple300: #d27dff; */
+  --brand-colors-purple-purple300: #d8b4fe;
+  /* --brand-colors-purple-purple400: #b864f5; */
+  --brand-colors-purple-purple400: #c084fc;
+  /* --brand-colors-purple-purple500: #8b45b6; */
+  --brand-colors-purple-purple500: #a855f7;
   --brand-colors-purple-purple600: #6c2ab2;
   --brand-colors-purple-purple700: #4c1178;
   --brand-colors-purple-purple800: #32054d;
@@ -105,6 +118,17 @@
   --brand-colors-lime-lime900: #011515;
   --brand-colors-lime-lime025: #effed9;
   --brand-colors-lime-lime050: #e3febd;
+  /* Slate */
+  --brand-colors-slate-100: #f1f5f9;
+  --brand-colors-slate-200: #e2e8f0;
+  --brand-colors-slate-300: #cbd5e1;
+  --brand-colors-slate-400: #94a3b8;
+  --brand-colors-slate-500: #64748b;
+  --brand-colors-slate-600: #475569;
+  --brand-colors-slate-700: #334155;
+  --brand-colors-slate-800: #1e293b;
+  --brand-colors-slate-900: #0f172a;
+  --brand-colors-slate-050: #f8fafc;
   /* White and Black */
   --brand-colors-white: #ffffff;
   --brand-colors-black: #000000;

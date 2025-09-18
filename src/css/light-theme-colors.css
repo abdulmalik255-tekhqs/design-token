@@ -6,8 +6,14 @@
 .light {
   /* For default neutral backgrounds */
   --color-background-default: var(--brand-colors-grey-grey000);
+  /* --color-background-default: #f8fafc33; */
   /* For secondary neutral backgrounds. */
-  --color-background-alternative: var(--brand-colors-grey-grey050);
+  /* --color-background-alternative: var(--brand-colors-grey-grey050); */
+  /* --color-background-alternative: #b5c6e0; */
+  /* --color-background-alternative: #f1f5f9; */
+  --color-background-alternative: var(--brand-colors-slate-050);
+  /* For specific onboarding web flow neutral backgrounds */
+  --color-background-accent: #f8fafc33;
   /* For "hover" states that use background-default. */
   --color-background-default-hover: #f5f5f5;
   /* For "pressed" states that use background-alternative. */
@@ -21,36 +27,48 @@
   /* For "pressed" state that use no background fill. */
   --color-background-pressed: #00000014;
   /* For default neutral text. */
-  --color-text-default: var(--brand-colors-grey-grey900);
+  /* --color-text-default: var(--brand-colors-grey-grey900); */
+  --color-text-default: var(--brand-colors-slate-900);
   /* For softer contrast neutral text */
-  --color-text-alternative: var(--brand-colors-grey-grey500);
+  /* --color-text-alternative: var(--brand-colors-grey-grey500); */
+  --color-text-alternative: var(--brand-colors-slate-400);
   /* For the softest contrast neutral text (not accessible) */
-  --color-text-muted: var(--brand-colors-grey-grey300);
+  /* --color-text-muted: var(--brand-colors-grey-grey300); */
+  --color-text-muted: var(--brand-colors-slate-500);
   /* For default neutral icons */
-  --color-icon-default: var(--brand-colors-grey-grey900);
+  /* --color-icon-default: var(--brand-colors-grey-grey900); */
+  --color-icon-default: var(--brand-colors-slate-900);
   /* For softer neutral icons */
-  --color-icon-alternative: var(--brand-colors-grey-grey500);
+  /* --color-icon-alternative: var(--brand-colors-grey-grey500); */
+  --color-icon-alternative: var(--brand-colors-slate-400);
   /* For the weakest contrast neutral icons (not accessible) */
-  --color-icon-muted: var(--brand-colors-grey-grey300);
+  /* --color-icon-muted: var(--brand-colors-grey-grey300); */
+  --color-icon-muted: var(--brand-colors-slate-500);
   /* For soft contrast neutral border */
-  --color-border-default: var(--brand-colors-grey-grey200);
+  /* --color-border-default: var(--brand-colors-grey-grey200); */
+  --color-border-default: var(--brand-colors-slate-300);
   /* For the weakest  contrast neutral border */
-  --color-border-muted: #E2E8F0;
+  /* --color-border-muted: #bbc0c566; */
+  --color-border-muted: var(--brand-colors-purple-purple200);
   /* For the default shade of screen */
   --color-overlay-default: #00000099;
   /* For a stronger shade of screen */
-  --color-overlay-alternative: #E5E7EB;
   /* --color-overlay-alternative: #000000cc; */
+  --color-overlay-alternative: #e5e7eb;
   /* For elements used on top of overlay/alternative. Used for text, icon or border */
   --color-overlay-inverse: var(--brand-colors-grey-grey000);
   /* For interactive, active, and selected semantics. Used for text, background, icon or border */
-  --color-primary-default: var(--brand-colors-blue-blue500);
+  /* --color-primary-default: var(--brand-colors-blue-blue500); */
+  --color-primary-default: var(--brand-colors-purple-purple500);
   /* For the stronger contrast primary semantic elements. */
-  --color-primary-alternative: var(--brand-colors-blue-blue600);
+  /* --color-primary-alternative: var(--brand-colors-blue-blue600); */
+  --color-primary-alternative: var(--brand-colors-purple-purple600);
   /* For the weakest contrast primary semantic backgrounds. */
-  --color-primary-muted: #0376c91a;
+  /* --color-primary-muted: #0376c91a; */
+  --color-primary-muted: #f1f5f9;
   /* For elements used on top of primary/default. Used for text, icon or border */
-  --color-primary-inverse: var(--brand-colors-grey-grey000);
+  /* --color-primary-inverse: var(--brand-colors-grey-grey000); */
+  --color-primary-inverse: var(--brand-colors-slate-050);
   /* For the "hover" state of primary-default elements */
   --color-primary-default-hover: #036ab5;
   /* For the "pressed" state of primary-default elements */
@@ -98,9 +116,11 @@
   /* For elements used on top of flask/default. Used for text, icon or border */
   --color-flask-inverse: var(--brand-colors-grey-grey000);
   /* For neutral drop shadow color. */
-  --color-shadow-default: #0000001a;
+  /* --color-shadow-default: #0000001a; */
+  --color-shadow-default: #79b5ff14;
   /* For primary drop shadow color. */
-  --color-shadow-primary: #0376c933;
+  /* --color-shadow-primary: #0376c933; */
+  --color-shadow-primary: #3b82f61f;
   /* For critical/danger drop shadow color. */
   --color-shadow-error: #ca354266;
 }
