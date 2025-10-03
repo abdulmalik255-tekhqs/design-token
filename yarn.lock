@@ -4476,7 +4476,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"ryt-design-tokens@workspace:.":
+"ryt-design-tokens@npm:4.3.14, ryt-design-tokens@workspace:.":
   version: 0.0.0-use.local
   resolution: "ryt-design-tokens@workspace:."
   dependencies:
@@ -4488,6 +4488,7 @@ __metadata:
     jest: "npm:^29.7.0"
     react: "npm:^18.3.1"
     react-dom: "npm:^18.3.1"
+    ryt-design-tokens: "npm:4.3.14"
     ts-jest: "npm:^29.1.1"
     typescript: "npm:^5.9.2"
   languageName: unknown

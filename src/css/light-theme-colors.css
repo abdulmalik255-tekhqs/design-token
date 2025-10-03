@@ -50,6 +50,9 @@
   /* For the weakest  contrast neutral border */
   /* --color-border-muted: #bbc0c566; */
   --color-border-muted: var(--brand-colors-purple-purple200);
+  --color-border-theme: var(--brand-colors-purple-purple100);
+   /* network picker border */
+   --color-border-muted-alt: var( --brand-colors-slate-100);
   /* For the default shade of screen */
   --color-overlay-default: #00000099;
   /* For a stronger shade of screen */
@@ -60,6 +63,7 @@
   /* For interactive, active, and selected semantics. Used for text, background, icon or border */
   /* --color-primary-default: var(--brand-colors-blue-blue500); */
   --color-primary-default: var(--brand-colors-purple-purple500);
+  --color-primary-background-theme: var(--brand-colors-purple-purple026);
   /* For the stronger contrast primary semantic elements. */
   /* --color-primary-alternative: var(--brand-colors-blue-blue600); */
   --color-primary-alternative: var(--brand-colors-purple-purple600);
@@ -123,4 +127,5 @@
   --color-shadow-primary: #3b82f61f;
   /* For critical/danger drop shadow color. */
   --color-shadow-error: #ca354266;
+ 
 }
