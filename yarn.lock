@@ -4476,7 +4476,21 @@ __metadata:
   languageName: node
   linkType: hard
 
-"ryt-design-tokens@npm:4.3.14, ryt-design-tokens@workspace:.":
+"ryt-design-tokens@npm:4.3.14":
+  version: 4.3.14
+  resolution: "ryt-design-tokens@npm:4.3.14"
+  dependencies:
+    "@babel/core": "npm:^7.15.0"
+    "@babel/preset-env": "npm:^7.14.0"
+    "@babel/preset-react": "npm:^7.14.5"
+    "@vitejs/plugin-react": "npm:^4.2.1"
+    react: "npm:^18.3.1"
+    react-dom: "npm:^18.3.1"
+  checksum: 10/84b3f39a3b320e08bdbe4f1c8ca935526f668c5a5fa858fe86fa7a3b71e16f60a023a949db2be0443d9e143bb1461296925683a801173c6fc6c87b068d832744
+  languageName: node
+  linkType: hard
+
+"ryt-design-tokens@workspace:.":
   version: 0.0.0-use.local
   resolution: "ryt-design-tokens@workspace:."
   dependencies:

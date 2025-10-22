@@ -60,6 +60,8 @@
   --brand-colors-red-red700: #64141c;
   --brand-colors-red-red800: #3a0c10;
   --brand-colors-red-red900: #3a0c10;
+  --brand-colors-red-red901: #D5434580;
+  --brand-colors-red-red902: #FEF2F2;
   --brand-colors-red-red050: #fcf2f3;
   --brand-colors-red-red025: #fcf2f3;
   /* Yellow */
@@ -107,6 +109,7 @@
   --brand-colors-purple-purple050: #fbf2ff;
   --brand-colors-purple-purple025: #fcf6ff;
   --brand-colors-purple-purple026: #FAF5FF;
+  --brand-colors-purple-purple027: #B060FA;
   /* Lime */
   --brand-colors-lime-lime100: #b8ef4a;
   --brand-colors-lime-lime200: #95ca45;
