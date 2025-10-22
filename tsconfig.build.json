@@ -6,9 +6,11 @@
     "emitDeclarationOnly": true,
     "inlineSources": true,
     "noEmit": false,
-    "outDir": "dist/types",
+    "outDir": "dist",
     "rootDir": "src",
-    "sourceMap": true
+    "sourceMap": true,
+    "module": "CommonJS",
+    "target": "ES2019"
   },
   "include": ["./src/**/*.ts"],
   "exclude": [
