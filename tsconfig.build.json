@@ -1,28 +1,24 @@
 {
   "extends": "./tsconfig.json",
   "compilerOptions": {
-    "target": "ES2019",
-    "module": "ESNext",
     "declaration": true,
     "declarationMap": true,
-    "sourceMap": true,
+    "emitDeclarationOnly": true,
     "inlineSources": true,
     "noEmit": false,
-    "outDir": "dist",
+    "outDir": "dist/types",
     "rootDir": "src",
-    "moduleResolution": "Node",
-    "esModuleInterop": true,
-    "skipLibCheck": true
+    "sourceMap": true
   },
-  "include": ["src/**/*"],
+  "include": ["./src/**/*.ts"],
   "exclude": [
-    "**/__fixtures__/**",
-    "**/__mocks__/**",
-    "**/__test__/**",
-    "**/__tests__/**",
-    "**/__snapshots__/**",
-    "**/*.test.ts",
-    "**/*.test-d.ts",
-    "**/*.test.*.ts"
+    "./src/**/__fixtures__/**/*",
+    "./src/**/__mocks__/**/*",
+    "./src/**/__test__/**/*",
+    "./src/**/__tests__/**/*",
+    "./src/**/__snapshots__/**/*",
+    "./src/**/*.test.ts",
+    "./src/**/*.test-d.ts",
+    "./src/**/*.test.*.ts"
   ]
 }
