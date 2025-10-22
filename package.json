@@ -1,6 +1,6 @@
 {
   "name": "ryt-design-tokens",
-  "version": "4.3.18",
+  "version": "4.3.17",
   "description": "Your package description",
   "keywords": [
     "MetaMask",
@@ -17,23 +17,21 @@
   "license": "MIT",
   "exports": {
     ".": {
-      "import": "./dist/esm/index.js",
-      "require": "./dist/cjs/index.js"
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.js"
     },
-    "./styles.css": "./dist/styles.css",
-    "./package.json": "./package.json"
+    "./package.json": "./package.json",
+    "./styles.css": "./dist/styles.css"
   },
-  "main": "./dist/cjs/index.js",
-  "module": "./dist/esm/index.js",
-  "types": "./dist/esm/index.d.ts",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
   "files": [
     "dist/**/*"
   ],
   "scripts": {
-    "build:cjs": "tsc --project tsconfig.build.json --module CommonJS --outDir dist/cjs",
-    "build:esm": "tsc --project tsconfig.build.json --module ESNext --outDir dist/esm",
-    "build": "yarn build:cjs && yarn build:esm && cleancss -o dist/styles.css src/css/index.css",
     "release": "npm version patch && yarn build && npm publish --access public",
+    "build": "tsc --project tsconfig.build.json && cleancss -o dist/styles.css src/css/index.css",
     "test": "jest && jest-it-up"
   },
   "dependencies": {
