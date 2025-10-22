@@ -64,6 +64,7 @@
   /* --color-primary-default: var(--brand-colors-blue-blue500); */
   --color-primary-default: var(--brand-colors-purple-purple500);
   --color-primary-background-theme: var(--brand-colors-purple-purple026);
+  --color-primary-border-theme: var(--brand-colors-purple-purple027);
   /* For the stronger contrast primary semantic elements. */
   /* --color-primary-alternative: var(--brand-colors-blue-blue600); */
   --color-primary-alternative: var(--brand-colors-purple-purple600);
@@ -127,5 +128,7 @@
   --color-shadow-primary: #3b82f61f;
   /* For critical/danger drop shadow color. */
   --color-shadow-error: #ca354266;
+  --color-text-error: var(--brand-colors-red-red901);
+  --color-background-error: var(--brand-colors-red-red902);
  
 }
