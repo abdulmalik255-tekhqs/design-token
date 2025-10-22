@@ -31,7 +31,7 @@
   ],
   "scripts": {
     "release": "npm version patch && yarn build && npm publish --access public",
-    "build": "tsc --project tsconfig.build.json && cleancss -o dist/styles.css src/css/index.css",
+    "build": "tsc -p tsconfig.build.json",
     "test": "jest && jest-it-up"
   },
   "dependencies": {

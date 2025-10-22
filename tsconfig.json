@@ -6,7 +6,7 @@
     "lib": ["ES2020", "dom"],
     "module": "CommonJS",
     "moduleResolution": "node",
-    "noEmit": true,
+    "noEmit": false,
     "noErrorTruncation": true,
     "noUncheckedIndexedAccess": true,
     "strict": true,
